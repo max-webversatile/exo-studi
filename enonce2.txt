@@ -1,0 +1,12 @@
+Énoncé. Le Fournil souhaite recevoir des précommandes en ligne. Créez la page contact.html avec un formulaire de précommande.
+
+Consignes :
+
+Créez contact.html (même header, nav, footer que les autres pages).
+Formulaire method="post", action="#" (pas de serveur pour l'instant).
+Champs : nom (texte, obligatoire), e-mail (obligatoire), téléphone (tel, optionnel), date de retrait (date, obligatoire), produit (select : 4 options), quantité (number, min 1, max 20), mode de retrait (radio : en magasin / livraison), un message (textarea, 300 caractères max), une case checkbox d'acceptation des conditions (obligatoire).
+Chaque champ a un label correctement relié.
+Regroupez « Vos coordonnées » et « Votre commande » dans deux fieldset avec legend.
+Testez : soumettez le formulaire vide, puis avec un e-mail invalide, et observez les messages natifs.
+
+https://github.com/max-webversatile/exo-studi
